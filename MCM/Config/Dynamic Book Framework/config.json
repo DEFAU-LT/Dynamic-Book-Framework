@@ -1,0 +1,30 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Exit-9B/MCM-Helper/main/docs/config.schema.json",
+    "modName": "Dynamic Book Framework",
+    "displayName": "Dynamic Book Framework",
+    "pages": [
+        {
+            "pageDisplayName": "$main page",
+            "cursorFillMode": "topToBottom",
+            "content": [
+                {
+                    "text" : "$Settings",
+                    "type": "header",
+                    "position": 0
+                },
+                {
+                    "type": "toggle",
+                    "id": "reloadIniButton",
+                    "text": "$Reload Book INI",
+                    "help": "$Reloads the dynamic book mappings from the INI file. Use this if you've made changes to 'DynamicJournalFramework.ini' while the game is running.",
+                    "action": {
+                      "type": "CallFunction",
+                      "scriptName": "DBF_ScriptUtil",
+                      "function": "ReloadDynamicBookINI"
+                    }
+                }
+           
+            ]
+        }
+    ]
+}
