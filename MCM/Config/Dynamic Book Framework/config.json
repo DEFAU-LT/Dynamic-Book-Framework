@@ -2,10 +2,11 @@
     "$schema": "https://raw.githubusercontent.com/Exit-9B/MCM-Helper/main/docs/config.schema.json",
     "modName": "Dynamic Book Framework",
     "displayName": "Dynamic Book Framework",
+    "cursorFillMode": "topToBottom",
+    "content": [],
     "pages": [
         {
             "pageDisplayName": "$main page",
-            "cursorFillMode": "topToBottom",
             "content": [
                 {
                     "text" : "$Settings",

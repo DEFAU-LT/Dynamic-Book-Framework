@@ -22,7 +22,6 @@
         <Import>C:\SSE\Mods\Skyrim Script Extender (SKSE64)\Scripts\Source</Import>
         <Import>C:\SSE\Mods\Skyrim Script Extender (SKSE64)\Scripts</Import>
         <Import>C:\SSE\Mods\MCM SDK\Source\Scripts</Import>
-        <Import>C:\SSE\Mods\Dynamic Books - A modder resource\Scripts\Source</Import>
     </Imports>
     <Folders>
         <!-- Relative path to folder containing .psc Papyrus source code files for this project -->
